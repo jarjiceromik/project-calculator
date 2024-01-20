@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px red;
+    font-size: 35px;
+    font-style: italic;
+
+}
+
+.card {
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0;
+    margin-top: 25px;
+    box-shadow: 3px 6px 9px 3px rgb(82, 79, 79);
+    transition: 0.3s;
+    border: 5px double rgb(34, 15, 1);
+    border-radius: 5px;
+    background-color: gray;
+}
+
+.card:hover {
+    box-shadow: 6px 12px 18px 6px rgb(82, 79, 79);
+}
+
+.cal-dis #result {
+    margin-top: 1px;
+    width: 300px;
+    height: 90px;
+    border: 3px solid rgb(10, 10, 10);
+    border-radius: 5px;
+    background-color: rgb(250, 235, 215);
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.cal-dis #result:hover {
+    background-color: cornsilk;
+}
+
+.cal-body {}
+
+.btn {
+    width: 75px;
+    height: 70px;
+    border: 2px solid rgb(245, 242, 242);
+    border-radius: 5px;
+    background-color: rgb(49, 47, 47);
+    font-size: 20px;
+    font-weight: bold;
+    color: crimson;
+}
+
+.btn2 {
+    width: 75px;
+    height: 70px;
+    border: 2px solid rgb(245, 242, 242);
+    border-radius: 5px;
+    background-color: blueviolet;
+    font-size: 20px;
+    font-weight: bold;
+    color: crimson;
+}
+
+.btn3 {
+    width: 75px;
+    height: 70px;
+    border: 2px solid rgb(245, 242, 242);
+    border-radius: 5px;
+    background-color: chocolate;
+    font-size: 20px;
+    font-weight: bold;
+    color: crimson;
+}
+
+.btn:hover {
+    background-color: black;
+    color: red;
+    border: 3px solid red;
+}
+
+.btn2:hover {
+    background-color: rgb(25, 9, 175);
+    color: red;
+    border: 3px solid red;
+}
+
+.btn3:hover:hover {
+    background-color: rgb(20, 196, 143);
+    color: red;
+    border: 3px solid red;
+}
